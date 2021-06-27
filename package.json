@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-mediansorted",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Calculate the median value of a sorted strided array.",
   "license": "Apache-2.0",
   "author": {
