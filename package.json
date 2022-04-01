@@ -1,0 +1,40 @@
+{
+  "name": "@stdlib/stats-base-mediansorted",
+  "version": "0.0.0",
+  "description": "Calculate the median value of a sorted strided array.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-base-mediansorted.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "median",
+    "middle",
+    "central tendency",
+    "average",
+    "avg",
+    "quantile",
+    "sorted",
+    "ordered",
+    "strided",
+    "strided array",
+    "typed",
+    "array"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
