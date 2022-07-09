@@ -30,38 +30,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-mediansorted
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-mediansorted = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-mediansorted@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var mediansorted = require( 'path/to/vendor/umd/stats-base-mediansorted/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-mediansorted@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.mediansorted;
-})();
-</script>
+var mediansorted = require( '@stdlib/stats-base-mediansorted' );
 ```
 
 #### mediansorted( N, x, stride )
@@ -161,14 +153,9 @@ var v = mediansorted.ndarray( N, x, 2, 1 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-mediansorted@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Float64Array = require( '@stdlib/array-float64' );
+var mediansorted = require( '@stdlib/stats-base-mediansorted' );
 
 var x;
 var i;
@@ -181,11 +168,6 @@ console.log( x );
 
 var v = mediansorted( x.length, x, 1 );
 console.log( v );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -247,8 +229,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-mediansorted.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-mediansorted
 
-[test-image]: https://github.com/stdlib-js/stats-base-mediansorted/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-base-mediansorted/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/stats-base-mediansorted/actions/workflows/test.yml/badge.svg?branch=v0.0.8
+[test-url]: https://github.com/stdlib-js/stats-base-mediansorted/actions/workflows/test.yml?query=branch:v0.0.8
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-mediansorted/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-mediansorted?branch=main
@@ -283,11 +265,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmediansorted]: https://github.com/stdlib-js/stats-base-dmediansorted/tree/umd
+[@stdlib/stats/base/dmediansorted]: https://github.com/stdlib-js/stats-base-dmediansorted
 
-[@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats-base-mean/tree/umd
+[@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats-base-mean
 
-[@stdlib/stats/base/smediansorted]: https://github.com/stdlib-js/stats-base-smediansorted/tree/umd
+[@stdlib/stats/base/smediansorted]: https://github.com/stdlib-js/stats-base-smediansorted
 
 <!-- </related-links> -->
 
