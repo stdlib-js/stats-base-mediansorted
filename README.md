@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import mediansorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-mediansorted@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-mediansorted/tags). For example,
+
+```javascript
 import mediansorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-mediansorted@v0.2.2-esm/index.mjs';
 ```
 
@@ -155,7 +160,7 @@ var v = mediansorted.ndarray( N, x, 2, 1 );
 <script type="module">
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import mediansorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-mediansorted@v0.2.2-esm/index.mjs';
+import mediansorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-mediansorted@esm/index.mjs';
 
 var x;
 var i;
