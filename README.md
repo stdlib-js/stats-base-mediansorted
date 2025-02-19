@@ -195,7 +195,7 @@ console.log( v );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats-base/dmediansorted`][@stdlib/stats/base/dmediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/dmediansorted`][@stdlib/stats/strided/dmediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-base/mean`][@stdlib/stats/base/mean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-base/smediansorted`][@stdlib/stats/base/smediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted single-precision floating-point strided array.</span>
 
@@ -229,7 +229,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -281,7 +281,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmediansorted]: https://github.com/stdlib-js/stats-base-dmediansorted
+[@stdlib/stats/strided/dmediansorted]: https://github.com/stdlib-js/stats-strided-dmediansorted
 
 [@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats-base-mean
 
